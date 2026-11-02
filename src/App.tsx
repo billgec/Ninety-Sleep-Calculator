@@ -1,4 +1,5 @@
 import './App.css'
+import { Analytics } from '@vercel/analytics/react'
 import { Calculator } from './components/Calculator.tsx'
 import { Footer } from './components/Footer.tsx'
 import { NightSky } from './components/NightSky.tsx'
@@ -22,6 +23,7 @@ function App() {
         <Calculator />
       )}
       <Footer />
+      <Analytics />
     </>
   )
 }
